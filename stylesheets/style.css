@@ -1,28 +1,206 @@
-* {
-    font-family: Arial, sans-serif;
-}
-
-/*
-.subtitulo {
-    font-family: Times New Roman, serif;
-}
-*/
-h1 {
-    font-family: "Roboto Slab", Georgia, serif;
-}
-
 body{
-    background-color: #faeee7;
+    background-color: #fffffe;
+}
+
+p{
+    font-family: 'Kanit', sans-serif;
+}
+
+header {
+    text-align:  center;
+    background-color: #90b4ce;
+}
+
+header h1{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+}
+
+.foto{
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 0.5px solid black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+nav h2{
+    padding: 10px;
+    font-family: 'Voces', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 20px;
+}
+
+.correo, .ubicacion, .celular{
+    display: flex;
+}
+
+.correo p, .ubicacion p, .celular p{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.fa-solid{
+    font-size: 30px;
+    margin-top: 20px;
 }
 
 #datosp h2{
     color: #094067;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Voces', sans-serif;
+}
+
+hr{
+    border:none;
+    border-bottom: 2px solid #000000;
+}
+
+.da{
+    background-color: #c7e0f5;
 }
 
 #educacion h2{
     color: #094067;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Voces', sans-serif;
+}
+
+#educacion h4, #educacion li{
+    font-family: 'Kanit', sans-serif;
+}
+
+.primaria{
+    display: flex;
+    gap: 250px;
+}
+
+.primaria #fechaPrim{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.secundaria{
+    display: flex;
+    gap: 250px;
+}
+
+.secundaria #fechaSecun, .superior #fechaSup{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.superior{
+    display: flex;
+    gap: 210px;
+}
+
+.supMapa{
+    margin-left: 350px;
 }
 
 #proyectos h2{
     color: #094067;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Voces', sans-serif;
+}
+
+.pr{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.p1{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    gap: 80px;
+    margin-bottom: 30px;
+}
+
+.p1 p{
+    margin-top: 80px;
+}
+
+.fotop1{
+    border: 0.5px solid black;
+}
+
+.p2{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+    gap: 80px;
+    margin-bottom: 30px;
+}
+
+.p2 p{
+    margin-top: 90px;
+}
+
+.fotop2{
+    border: 0.5px solid black;
+}
+
+#contacto h2{
+    color: #094067;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Voces', sans-serif;
+}
+
+.mensajeForm{
+    display: flex;
+}
+
+.nombreForm{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.nom{
+    font-family: 'Kanit', sans-serif;
+}
+
+.tituloForm{
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.mensaje{
+    margin-top: 10px;
+}
+
+.boton{
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+
+footer h5{
+    margin-left: 20px;
 }

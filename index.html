@@ -6,57 +6,115 @@
         <meta name="keywords" content="curriculum,programacion,paginas web">
         <meta name="description" content="Curriculum Vitae Richard Perez">
         <meta name="author" content="Richard Perez">
-        <link href="https://fonts.googleapis.com/css2?family=Metal&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;400&family=Raleway:ital,wght@0,300;0,600;0,800;0,900;1,600&family=Voces&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="stylesheets/style.css">
     </head>
     <body>
         <header> 
-            <h1> Richard Pérez Moreira</h1>
-            <img src="img/foto.jpeg" alt="Foto personal" width="250">
+            <h1> Richard Luis Pérez Moreira</h1>
+            <hr>
         </header>
+        <div class="imagen">
+            <img class="foto" src="img/foto.jpeg" alt="Foto personal" width="250">
+        </div>
         <nav>
-            <ul>
-                <li><a href="#datosp">Datos personales</a></li>
-                <li><a href="#educacion">Formación académica</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
+            <h2><a href="#datosp">Datos personales</a></h2>
+            <h2><a href="#educacion">Formación académica</a></h2>
+            <h2><a href="#proyectos">Proyectos</a></h2>
+            <h2><a href="#contacto">Contacto</a></h2>
         </nav>
         <section id="datosp">
-            <h2>Datos personales</h2>
-                <h4>Nacionalidad</h4>
-                <p>Ecuatoriano</p>
-                <h4>Fecha de Nacimiento</h4>
-                <p>12 de Febrero de 2002</p>
-                <h4>Correo electronico</h4>
-                <p>ricluper@espol.edu.ec</p>
-                <h4>Telefono celular</h4>
-                <p>0982716354</p>
+            <div class="da">
+                <hr>
+                <h2>Datos personales</h2>
+                <hr>
+            </div>
+            <div class="info">
+                <div class="ubicacion">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Durán, Ecuador</p>
+                </div>
+                <div class="correo">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>ricluper@espol.edu.ec</p>
+                </div>
+                <div class="celular">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>0982716354</p>
+                </div>
+            </div>
         </section>
-        <section id="educación">
-            <h2>Formación académica</h2>
-                <h4>Instruccion primaria</h4>
-                <p>Escuela Particular "La Gran Fantasia"</p>
-                <h4>Instruccion secundaria</h4>
-                <p>Colegio Fiscal "Enrique Gil Gilbert" (2014-2016)</p>
-                <p>Unidad Educativa Particular "Los Andes" (2017-2020)</p>
-                <h4>Instruccion superior</h4>
-                <p>Escuela Superior Politecnica del Litoral - Ingenieria en Ciencias de la computacion</p>
+        <section id="educacion">
+            <div class="da">
+                <hr>
+                <h2>Formación académica</h2>
+                <hr>
+            </div>
+            <div class="primaria">
+                <p id="fechaPrim">2005-2013</p>
+                <div class="primInfo">
+                    <h4>Instrucción primaria</h4>
+                    <p>Escuela Particular "La Gran Fantasia"</p>
+                </div>
+            </div>
+            <div class="secundaria">
+                <p id="fechaSecun">2014-2020</p>
+                <div class="secunInfo">
+                    <h4>Instrucción secundaria</h4>
+                    <ul>
+                        <li>Colegio Fiscal "Enrique Gil Gilbert" (2014-2016)</li>
+                        <li>Unidad Educativa Particular "Los Andes" (2017-2020)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="superior">
+                <p id="fechaSup">2020-Actualidad</p>
+                <div class="supInfo">
+                    <h4>Instrucción superior</h4>
+                    <p>Escuela Superior Politécnica del Litoral - Ingeniería en Ciencias de la computación</p>
+                </div>
+            </div>
+            <div class="supMapa">
+                <iframe src="https://www.google.com/maps/d/embed?mid=1Ar_PB5QEaBVAWK_rvcaEhOl_haA&hl=es&ehbc=2E312F" width="90%" height="480"></iframe>
+            </div>
         </section>
         <section id="proyectos">
-                
-        </section>
-        <section id="habilidades">
-
+            <div class="da">
+                <hr>
+                <h2>Proyectos</h2>
+                <hr>
+            </div>
+            <div class="pr">
+                <div class="p1">
+                    <p>Adivina el animal</p>
+                    <img class="fotop1" src="img/p1.PNG" alt="Proyecto 3" width="300">
+                </div>
+                <div class="p2"> 
+                    <p>Galería de Fotos</p>
+                    <iframe class="fotop2" width="300" height="200" src="https://www.youtube.com/embed/hQLUgEaLZuo?si=pMjgvXq1aA6P43-a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
         </section>
         <section id="contacto">
-
-        </section>
-
-        <span style="color: red;">Este es un título</span>            
+            <div class="da">
+                <hr>
+                <h2>Contacto</h2>
+                <hr>
+            </div>
+            <form class="nombreForm">
+                <label class="nom">Ingrese su nombre:</label>
+                <input type="text"> 
+            </form>
+            <form class="mensajeForm">
+                <label class="tituloForm">Escriba su mensaje:</label>
+                <textarea  class="mensaje" rows="3" cols="80"></textarea>
+            </form>
+            <input class="boton" type="submit" value="Enviar">
+        </section>         
         <footer>
-            <p> Copyright 2023 Richard Pérez</p>
+            <hr>
+            <h5> Copyright 2023 - Richard Pérez</h5>
         </footer>
     </body>
 </html>
